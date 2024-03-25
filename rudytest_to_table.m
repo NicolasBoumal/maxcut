@@ -1,7 +1,7 @@
 function rudytest_to_table()
 % Transform data from rudytest.m in a Latex table for paper
 
-data = load('rudytest_latte.mat');
+data = load('rudytest.mat');
 if isfield(data, 'record')
     data = data.record;
 else
