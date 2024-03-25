@@ -8,7 +8,7 @@ else
     data = data.data;
 end
 
-fid = fopen('rudytable_latte.tex', 'w+');
+fid = fopen('rudytable.tex', 'w+');
 
 for graphid = [1:67, 70, 72, 77, 81]
     
